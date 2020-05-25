@@ -8,9 +8,12 @@ punctuation and spaces in a given text."""
     if (len(arg) > 1):
         print("ERROR")
     elif (len(arg) == 0):
-        str = input("What is the text to analyse?\n")
-        text_analyzer(str)
+        string2 = input("What is the text to analyse?\n")
+        text_analyzer(string2)
     else:
+        if isinstance(arg[0], str) is not True:
+            print("ERROR")
+            return
         ul = 0
         ll = 0
         pm = 0

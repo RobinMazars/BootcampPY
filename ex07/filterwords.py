@@ -10,7 +10,7 @@ if (len(sys.argv) == 3):
             for i in string.punctuation:
                 s = s.replace(i, '')
             list = s.split(" ")
-            print(list)
+            # print(list)
             list2 = []
             for w in list:
                 if len(w) > n:

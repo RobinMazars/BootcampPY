@@ -18,7 +18,7 @@ if (len(sys.argv) == 3):
             print(f"Remainder:\t{n1%n2}")
         else:
             print("Quotient::\tERROR (div by zero)")
-            print("Remainder:\tERROR ((modulo by zero)")
+            print("Remainder:\tERROR (modulo by zero)")
     except ValueError:
         print("InputError: only numbers\n")
         displayUsage()
