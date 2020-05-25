@@ -5,4 +5,4 @@ for value in sys.argv[1:]:
     list.append(value.swapcase())
 
 list = reversed(list)
-print(*list,end="")
+print(*list, end="")
