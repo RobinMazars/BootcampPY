@@ -18,6 +18,8 @@ MORSE_CODE_DICT = {'A': '.-', 'B': '-...',
 
 ok = 1
 nb = 0
+if len(sys.argv) == 1:
+    exit()
 for x in sys.argv[1:]:
     list = []
     list = x.split()
