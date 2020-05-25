@@ -11,5 +11,5 @@ if (len(sys.argv) == 2):
             print("I'm Even.")
     except ValueError:
         print("ERROR")
-else:
+elif (len(sys.argv) != 1):
     print("ERROR")
