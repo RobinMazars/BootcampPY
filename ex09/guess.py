@@ -4,7 +4,7 @@ OK = '\033[94m'
 FAIL = '\033[91m'
 ENDC = '\033[0m'
 
-r = random.randrange(1, 100)
+r = random.randint(1, 99)
 # r = 42
 # print(r)
 print("This is an interactive guessing game!")
